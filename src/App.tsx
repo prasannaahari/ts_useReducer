@@ -3,6 +3,7 @@ import AllFive from "./components/AllFive";
 import AllSeven from "./components/AllSeven";
 import AllTwelve from "./components/AllTwelve";
 import AllFour from "./components/AllFour";
+import Form from "./components/Form";
 
 type Action =
   | { type: "inc"; payload: number }
@@ -44,6 +45,8 @@ function App() {
       <AllSeven/>
       <AllTwelve/>
       <AllFour/>
+      <br /><br />
+      <Form/>
     </>
   );
 }
